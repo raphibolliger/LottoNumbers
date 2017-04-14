@@ -7,8 +7,8 @@ namespace LottoNumbers
     {
         static void Main(string[] args)
         {
-            var lotto = new Lotto(8);
-            lotto.Play(42, 6);
+            var lotto = new Lotto(4, 5, 50, 2, 12, false);
+            lotto.Play();
             Console.ReadLine();
         }
     }
